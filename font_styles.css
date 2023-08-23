@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+  font-family: 'palatino';
+  src: url('../fonts/palab-webfont.ttf') format('ttf'), 
+  url('../fonts/palab-webfont.woff') format('woff'), 
+  url('../fonts/palab-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'publico';
+  src: url('../fonts/publico/Publico-Bold.ttf') format('ttf'),
+  url('../fonts/publico/Publico-Bold.woff') format('woff'),
+  url('../fonts/publico/Publico-Bold.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Magnific Caos';
+  src: url('../fonts/MagnificChaos.ttf') format('ttf'),
+  url('../fonts/magnificchaos-webfont.woff') format('woff'),
+  url('../fonts/magnificchaos-webfont.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Diastema';
+  src: url('../fonts/Diastema/diastema_bold-webfont.woff') format('woff'),
+  url('../fonts/Diastema/diastema_bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FS Ostro';
+  src: url('../fonts/FS\ Ostro\ Display\ VF\ Regular.woff') format('woff'),
+  url('../fonts/FS\ Ostro\ Display\ VF\ Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Ratio Modern';
+  src: url('../fonts/Ratio\ Modern.woff') format('woff'),
+  url('../fonts/Ratio\ Modern.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'CoFo Sans';
+  src: url('../fonts/cofo_sans/cofo_sans_1-webfont.woff') format('woff'),
+  url('../fonts/cofo_sans/cofo_sans_1-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Abolition';
+  src: url('../fonts/Abolition/AbolitionTest-Lines.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('../fonts/sofiapro-light.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url('../fonts/Graphik_Collection/Graphik_Condensed_Family/GraphikCondensed-Bold-Trial.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'BD Supper';
+  src: url('../fonts/BDSupperRegular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FS Me';
+  src: url('../fonts/FS_Me/FS\ Me-Heavy.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Eleven_Twenty';
+  src: url('../fonts/11.20___-webfont.woff') format('woff'),
+  url('../fonts/11.20___-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Lil Grotesk';
+  src: url('../fonts/LilGrotesk-Bold.otf') format('otf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../fonts/Helvetica/helvetica-bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../fonts/arial/arialn-webfont.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Tahoma';
+  src: url('../fonts/Tahoma/tahoma_regular_font-webfont.woff2') format('woff2');
+}
+
+.header {
+    background-color: #433E49;
+    height: 50px;
+    width: 100%;
+
+}
+
+.breadcrumb {
+  text-align: left;
+}
+
+.breadcrumb li {
+  float: left;
+}
+
+.breadcrumb a {
+  color: #DBC1AD;
+  background: darkcyan;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 0 5px;
+}
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: darkcyan;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb a::before {
+  left: -10px;
+  border-left-color: transparent;
+}
+.breadcrumb a::after {
+  left: 100%;
+   border-color: transparent;
+  border-left-color: darkcyan;
+}
+
+.breadcrumb a:hover {
+  background-color: aquamarine;
+}
+.breadcrumb a:hover::before {
+  border-color: aquamarine;
+  border-left-color: transparent;
+}
+.breadcrumb a:hover::after {
+  border-left-color: aquamarine;
+}
+
+a{
+  display: block;
+  font-family: 'Pontano Sans',sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+    background-color: #F3E8EB;
+}
+
+#banner {
+    margin-top: 40px !important;
+    max-width: 100%;
+    max-height: 100%;
+    width: 1064px;
+    margin: 0 auto;
+    box-shadow: 15px 13px #DBC1AD;
+    border: 1px solid #F3E8EB;
+    background-color: #ABDFF1;
+}
+
+#banner h1 {
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 90px;
+line-height: 95px;
+font-style: normal;
+color: rgb(0, 0, 0);
+
+
+}
+
+#banner p {
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.types {
+    margin-top: 60px !important;
+    max-width: 100%;
+    width: 1064px;
+    margin: 0 auto;
+}
+
+.types h1 {
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.types h2 {
+  margin-top: 30px;
+}
+
+.types p, .types img {
+    margin-top: 20px;
+}
+
+
+.font_list, .pairing, #text_styles {
+    width: 1064px;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+.serif, .sans_serif {
+    margin-top: 30px;
+}
+
+.serif h2, .sans_serif h2, .pairing h2, #text_styles h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.serif h3, .sans_serif h3 {
+    float: left !important;
+    margin-right: 10px !important;
+}
+
+.serif li, .sans_serif li, #text_styles li {
+    margin: 60px;
+}
+
+.serif p, .sans_serif p {
+    margin: 20px;
+}
+
+footer {
+    background-color: #433E49;
+    text-align: center;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 60px;
+    padding-top: 30px;
+  }
+  
+  footer li {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .data {
+    text-decoration: none;
+    color: #DBC1AD;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  .data:hover {
+    color: aqua;
+  }
+
+
+  .types h1, .types h2, .font_list h2, .pairing h2, #text_styles h2, #text_styles h3 {
+    font-family: 'Forum', cursive;
+    font-weight: 700;
+    letter-spacing: 2px !important;
+    word-spacing: 2px !important;
+  }
+
+  #forum {
+    font-family: 'Forum', cursive;
+    font-size: larger;
+  }
+
+  #platino {
+    font-family: 'palatino', serif;
+  }
+
+  #publico {
+    font-family: 'publico', serif;
+  }
+
+  #Magnific_Caos {
+    font-family: 'Magnific Caos', serif;
+  }
+
+  #Diastema {
+    font-family: 'Diastema', serif;
+  }
+
+  #Caudex {
+    font-family: 'Caudex', serif;
+  }
+
+  #FS_Ostro {
+    font-family: 'FS Ostro', serif;
+  }
+
+  #Ratio_Modern {
+    font-family: 'Ratio Modern', serif;
+  }
+
+  #CoFo_Sans {
+    font-family: 'CoFo Sans', sans-serif;
+  }
+
+  #Lato {
+    font-family: 'Lato', sans-serif;
+  }
+
+  #Abolition {
+    font-family: 'Abolition', sans-serif;
+  }
+
+  #Sofia_Pro {
+    font-family: 'Sofia Pro', sans-serif;
+  }
+
+  #Graphik {
+    font-family: 'Graphik', sans-serif;
+  }
+
+  #BD_Supper {
+    font-family: 'BD Supper', sans-serif;
+  }
+
+  #Barlow {
+    font-family: 'Barlow', sans-serif;
+  }
+
+  #FS_Me {
+    font-family: 'FS Me', sans-serif;
+  }
+
+  #Eleven_Twenty {
+    font-family: 'Eleven Twenty', sans-serif;
+  }
+
+  #Lil_Grotesk {
+    font-family: 'Lil Grotesk', sans-serif;
+  }
+
+  #Poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #Helvetica {
+    font-family: 'Helvetica', sans-serif;
+  }
+
+  #Arial {
+    font-family: 'Arial', sans-serif;
+  }
+
+  #Tahoma {
+    font-family: 'Tahoma', sans-serif;
+  }
+
+  #Roboto {
+    font-family: 'Roboto', sans-serif;
+  }

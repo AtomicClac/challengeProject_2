@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.header {
+    background-color: #433E49;
+    height: 50px;
+    width: 100%;
+}
+
+.breadcrumb {
+  text-align: left;
+}
+
+.breadcrumb li {
+  float: left;
+}
+
+.breadcrumb a {
+  color: #DBC1AD;
+  background: darkcyan;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 0 5px;
+}
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: darkcyan;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb a::before {
+  left: -10px;
+  border-left-color: transparent;
+}
+.breadcrumb a::after {
+  left: 100%;
+   border-color: transparent;
+  border-left-color: darkcyan;
+}
+
+.breadcrumb a:hover {
+  background-color: aquamarine;
+}
+.breadcrumb a:hover::before {
+  border-color: aquamarine;
+  border-left-color: transparent;
+}
+.breadcrumb a:hover::after {
+  border-left-color: aquamarine;
+}
+
+a{
+  display: block;
+  font-family: 'Pontano Sans',sans-serif;
+  font-size: 16px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.banner {
+  width: 1024px;
+  margin: 0 auto;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 20px;
+  box-shadow: 5px 3px gray;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  color: #F3E8EB;
+  font-family: 'Oswald', sans-serif;
+  font-style: oblique;
+  word-spacing: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 3px 2px #DBC1AD;
+  background-color: #928490;
+}
+
+.title:hover {
+  color: #7F056E;
+}
+
+.schemes-title {
+  margin: 5px;
+  text-align: center;
+}
+
+.schemes-title-name {
+  margin-bottom: 10px;
+}
+
+img {
+max-width: 100%;
+max-height: 100%;
+}
+
+
+.color-list {
+  margin: 5px;
+}
+
+.color-list li {
+  display: inline-block;
+}
+
+#E5E5E5, #FFFEE6, #E1DDDB, #p0C4A60, #EF6C33, #E2495B, #ABDFF1, #p7F056E, #CAB387, #C09247, #F2EBE0, #p8E7C68, #ED7458, #FFDC9F, #DDC9BC, #F3E8EB, #C4BA3B, #F4ED6E, #C2B4D6, #p928490, #p433E49, #DBC1AD, #p57648C, #p934A5F, #F4F3EA, #CBD0D8, #D3AC2B, #p333D51, #E0E7E9, #A3C6C4, #p6C7A89, #p354649, #p4C4556, #p872642, #F6C026, #A0D3F9 {  
+  max-height: 100px;
+  max-width: 100px;
+  padding: 50px 50px;
+}
+
+p {
+  width: 700px;
+  max-width: 100%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #354649;
+  font-weight: 600;
+}
+
+#EF6C33 {
+  background-color: #EF6C33;
+}
+
+#p0C4A60 {
+  background-color: #0C4A60;
+}
+
+#ABDFF1 {
+  background-color: #ABDFF1;
+}
+
+#E1DDDB {
+  background-color: #E1DDDB;
+}
+
+#p7F056E {
+  background-color: #7F056E;
+}
+
+#C09247 {
+  background-color: #C09247;
+}
+
+#CAB387 {
+  background-color: #CAB387;
+}
+
+#F2EBE0 {
+  background-color: #F2EBE0;
+}
+
+#p8E7C68 {
+  background-color: #8E7C68;
+}
+
+#ED7458 {
+  background-color: #ED7458;
+}
+
+#FFDC9F {
+  background-color: #FFDC9F;
+}
+
+#DDC9BC {
+  background-color: #DDC9BC;
+}
+
+#E2495B {
+  background-color: #E2495B;
+}
+
+#C4BA3B {
+  background-color: #C4BA3B;
+}
+
+#F4ED6E {
+  background-color: #F4ED6E;
+}
+
+#FFFEE6 {
+  background-color: #FFFEE6;
+}
+
+#E5E5E5 {
+  background-color: #e5e5e5;
+}  
+
+#C2B4D6 {
+  background-color: #c2b4d6;
+}
+
+#p57648C {
+  background-color: #57648c;
+}
+
+#p934A5F {
+  background-color: #934a5f;
+}
+
+#F4F3EA {
+  background-color: #f4f3ea;
+}
+
+#CBD0D8 {
+  background-color: #cbd0d8;
+}
+
+#D3AC2B {
+  background-color: #d3ac2b;
+}
+
+#p333D51 {
+  background-color: #333d51;
+}
+
+#E0E7E9 {
+  background-color: #E0E7E9;
+}
+
+#A3C6C4 {
+  background-color: #A3C6C4;
+}
+
+#p6C7A89 {
+  background-color: #6C7A89;
+}
+
+#p354649 {
+  background-color: #354649;
+}
+
+#A0D3F9 {
+  background-color: #A0D3F9;
+}
+
+#F6C026 {
+  background-color: #F6C026;
+}
+
+#p872642 {
+  background-color: #872642;
+}
+
+#p4C4556 {
+  background-color: #4C4556;
+}
+
+#p433E49 {
+  background-color: #433E49;
+}
+
+#p928490 {
+  background-color: #928490;
+}
+
+#DBC1AD {
+  background-color: #DBC1AD;
+}
+
+#F3E8EB {
+  background-color: #F3E8EB;
+}
+
+
+
+footer {
+  background-color: #433E49;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  height: 60px;
+  padding-top: 30px;
+}
+
+footer li {
+  display: inline-block;
+  width: 100px;
+}
+
+.data {
+  text-decoration: none;
+  color: #DBC1AD;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.data:hover {
+  color: aqua;
+}
